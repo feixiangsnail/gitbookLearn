@@ -1,0 +1,16 @@
+{
+    "plugins": ["donate","edit-link-plus"],
+    "pluginsConfig": {
+        "edit-link-plus": {
+            "base": "https://github.com/USER/REPO/edit/BRANCH/path/to/book"
+        },
+        "donate": {
+          "wechat": "例：/images/qr.png",
+          "alipay": "http://blog.willin.wang/static/images/qr.png",
+          "title": "",
+          "button": "打赏",
+          "alipayText": "支付宝",
+          "wechatText": "微信"
+        }
+    }
+}
